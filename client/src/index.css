@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.bg-primary {
+  @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white;
+}
+
+.flex-content {
+  @apply flex items-center justify-center;
+}
