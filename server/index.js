@@ -10,7 +10,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "https://basic-auth-ermuxan7s-projects.vercel.app/signup",
+    origin: "https://basic-auth-ermuxan7s-projects.vercel.app/",
     credentials: true,
   })
 );
