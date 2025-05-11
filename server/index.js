@@ -10,7 +10,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "https://basic-auth-gilt.vercel.app/",
+    origin: "https://basic-auth-gilt.vercel.app",
     credentials: true,
   })
 );
